@@ -1,12 +1,15 @@
 {
-  "name": "html5-css-boilerplate",
-  "version": "0.1.0",
-  "description": "HTML5/CSS Boilerplate with HTMLHint and StyleLint",
+  "name": "layout-designer-project-lvl1",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/verbatiun/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/verbatiun/layout-designer-project-lvl1/actions)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
+    "url": "git+https://github.com/verbatiun/layout-designer-project-lvl1.git"
   },
   "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {},
   "devDependencies": {
     "htmlhint": "^0.14.2",
@@ -16,6 +19,10 @@
     "stylelint-order": "^4.1.0",
     "surge": "^0.21.7"
   },
-  "author": "Nikita Mikhaylov",
-  "license": "ISC"
+  "author": "Alexey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verbatiun/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/verbatiun/layout-designer-project-lvl1#readme"
 }
