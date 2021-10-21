@@ -1,6 +1,7 @@
+/* -------- основные стили --------- */
 :root {
-  --wight: #fff;
-  --clear-wight: #d7ccc0;
+  --white: #fff;
+  --clear-white: #d7ccc0;
   --light: #f5f4f0;
   --basic: #fe8a02;
   --basic-dark: #42413c;
@@ -10,21 +11,14 @@
   --blue: #1085c5;
 }
 
-@font-face {
-  font-weight: normal;
-  font-family: "Neucha-Regular", cursive;
-  src: url("Neucha-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-weight: normal;
-  font-family: "OpenSans-Regular", sans-serif;
-  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
+  overflow-x: hidden;
+
   color: #2a2626;
-  font: 16px/1.6em "OpenSans-Regular", sans-serif;
+  font: 16px/1.6em "Open Sans", sans-serif;
 }
 
 h1,
@@ -48,4 +42,88 @@ h3 {
 section {
   width: 1110px;
   margin: 100px auto;
+}
+
+/* ----------- стили для header -------------- */
+[back-fone]::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  left: 0;
+
+  height: 904px;
+
+  background-image: url(../images/background.png);
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+.empty-block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  width: 1110px;
+}
+
+.img-main {
+  position: relative;
+  top: 55px;
+  right: -296px;
+
+  display: block;
+  height: 525px;
+}
+
+.h1-header {
+  font-weight: normal;
+  font-family: "Neucha", cursive;
+}
+
+.fc-basic {
+  color: var(--basic);
+}
+
+.txt-header {
+
+  padding-top: 140px;
+
+  column-count: 2;
+
+  column-gap: 30px;
+}
+
+.top-0px {
+  margin-top: 0;
+
+  padding-top: 0;
+}
+
+.ins-b {
+  break-inside: avoid;
+}
+
+.btn-header {
+
+  position: relative;
+
+  margin-top: 24px;
+
+  padding: 12px 24px;
+  border: none;
+
+  background-color: var(--basic);
+}
+
+.ref-header {
+  color: var(--white);
+  font: 700 16px/1.6em "Open Sans", sans-serif;
+  text-decoration: none;
 }
