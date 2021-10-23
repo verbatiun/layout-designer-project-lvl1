@@ -39,7 +39,12 @@ h3 {
   font-size: 34px;
 }
 
-.content1 {
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.content-1 {
   width: 1110px;
   margin: 100px auto;
 }
@@ -92,7 +97,6 @@ h3 {
 }
 
 .txt-header {
-
   padding-top: 140px;
 
   column-count: 2;
@@ -111,7 +115,6 @@ h3 {
 }
 
 .btn-header {
-
   position: relative;
 
   margin-top: 24px;
@@ -119,7 +122,13 @@ h3 {
   padding: 12px 24px;
   border: none;
 
-  background-color: var(--basic);
+  background: rgba(254, 138, 2, 1);
+
+  cursor: pointer;
+}
+
+.btn-header:hover {
+  background: rgba(234, 118, 0, 1);
 }
 
 .ref-header {
@@ -135,21 +144,21 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.content2 {
+.content-2 {
   width: 100%;
   margin-top: 100px;
   margin-bottom: 0;
 }
 
-.content3 {
+.content-3 {
+  height: auto;
 
-  height: 100vh;
+  padding-bottom: 80px;
 
   background-color: var(--basic-dark);
 }
 
 .h1-block2 {
-
   margin: 0;
 
   padding-top: 100px;
@@ -158,7 +167,6 @@ h3 {
 }
 
 .p-block2 {
-
   margin: 30px 0;
 
   text-align: center;
@@ -168,4 +176,133 @@ h3 {
   width: 919px;
   height: 469px;
   margin: 0 auto;
+}
+
+/* ---------------------- страница 3 (nav) ----------------------- */
+.table-nav {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+  border-spacing: 30px 20px;
+}
+
+.td-nav {
+
+  padding: 0;
+
+  vertical-align: top;
+}
+
+.block-up-header {
+  width: 350px;
+  height: 310px;
+
+  color: var(--basic);
+  font: 52px/1.2em "Neucha", cursive;
+  text-align: left;
+  vertical-align: top;
+}
+
+.fc-white {
+  color: var(--white);
+}
+
+.font-64px {
+  font: 64px/1em "Neucha", cursive;
+}
+
+.font-34px {
+  font: 34px/1.2em "Neucha", cursive;
+}
+
+.font-16px {
+  font: 16px/1.6em "Open Sans", sans-serif;
+}
+
+.mbott-40px {
+  margin-bottom: 40px;
+}
+
+.mbott-24px {
+  margin-bottom: 24px;
+}
+
+.mbott-16px {
+  margin-bottom: 16px;
+}
+
+.mbott-12px {
+  margin-bottom: 12px;
+}
+
+.mbott-4px {
+  margin-bottom: 4px;
+}
+
+.height-323px {
+  height: 323px;
+}
+
+.height-348px {
+  height: 348px;
+}
+
+.block-up {
+  box-sizing: border-box;
+  width: 350px;
+
+  padding: 24px;
+
+  background-color: var(--white);
+}
+
+.block-down {
+  display: none;
+  box-sizing: border-box;
+  width: 350px;
+  height: auto;
+  padding: 24px;
+
+  background-color: var(--basic);
+  cursor: pointer;
+}
+
+[card-1]:hover > .block-up {
+  display: none;
+}
+
+[card-1]:hover > .block-down {
+  display: block;
+}
+
+[card-2]:hover > .block-up {
+  display: none;
+}
+
+[card-2]:hover > .block-down {
+  display: block;
+}
+
+[card-3]:hover > .block-up {
+  display: none;
+}
+
+[card-3]:hover > .block-down {
+  display: block;
+}
+
+[card-4]:hover > .block-up {
+  display: none;
+}
+
+[card-4]:hover > .block-down {
+  display: block;
+}
+
+[card-5]:hover > .block-up {
+  display: none;
+}
+
+[card-5]:hover > .block-down {
+  display: block;
 }
