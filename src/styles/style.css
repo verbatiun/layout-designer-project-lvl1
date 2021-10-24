@@ -46,22 +46,24 @@ a {
 
 .content-1 {
   width: 1110px;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
+  padding-bottom: 100px;
 }
 
 /* ----------- стили для header -------------- */
 [back-fone]::before {
   position: absolute;
   top: 0;
-  right: 0;
 
-  left: 0;
+  width: 100vw;
 
-  height: 904px;
+  height: 914px;
 
   background-image: url(../images/background.png);
 
   background-repeat: no-repeat;
+
+  background-position: center top;
 
   background-size: cover;
 
@@ -97,7 +99,7 @@ a {
 }
 
 .txt-header {
-  padding-top: 140px;
+  padding-top: 150px;
 
   column-count: 2;
 
@@ -153,7 +155,9 @@ a {
 .content-3 {
   height: auto;
 
-  padding-bottom: 80px;
+  padding-top: 206px;
+
+  padding-bottom: 90px;
 
   background-color: var(--basic-dark);
 }
@@ -161,7 +165,7 @@ a {
 .h1-block2 {
   margin: 0;
 
-  padding-top: 100px;
+  padding-top: 0;
 
   text-align: center;
 }
@@ -179,23 +183,19 @@ a {
 }
 
 /* ---------------------- страница 3 (nav) ----------------------- */
-.table-nav {
-  width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-  border-spacing: 30px 20px;
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.td-nav {
-
-  padding: 0;
-
-  vertical-align: top;
-}
-
-.block-up-header {
-  width: 350px;
+.card-head {
+  flex: 0 0 350px;
+  box-sizing: border-box;
   height: 310px;
+  margin: 10px 15px;
 
   color: var(--basic);
   font: 52px/1.2em "Neucha", cursive;
@@ -203,28 +203,47 @@ a {
   vertical-align: top;
 }
 
+.card-up {
+  flex: 0 0 350px;
+  box-sizing: border-box;
+  height: 323px;
+  margin: 10px 15px;
+  padding: 24px;
+
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.card-down {
+  flex: 0 0 350px;
+  box-sizing: border-box;
+  height: 348px;
+  margin: 10px 15px;
+  padding: 24px;
+
+  background-color: var(--white);
+  cursor: pointer;
+}
+
 .fc-white {
   color: var(--white);
 }
 
 .font-64px {
+
   font: 64px/1em "Neucha", cursive;
 }
 
 .font-34px {
+
+  margin-top: 40px;
+
+  color: var(--basic);
   font: 34px/1.2em "Neucha", cursive;
 }
 
 .font-16px {
   font: 16px/1.6em "Open Sans", sans-serif;
-}
-
-.mbott-40px {
-  margin-bottom: 40px;
-}
-
-.mbott-24px {
-  margin-bottom: 24px;
 }
 
 .mbott-16px {
@@ -235,74 +254,72 @@ a {
   margin-bottom: 12px;
 }
 
-.mbott-4px {
-  margin-bottom: 4px;
-}
+[card-1]:hover {
 
-.height-323px {
-  height: 323px;
-}
-
-.height-348px {
-  height: 348px;
-}
-
-.block-up {
-  box-sizing: border-box;
-  width: 350px;
-
-  padding: 24px;
-
-  background-color: var(--white);
-}
-
-.block-down {
-  display: none;
-  box-sizing: border-box;
-  width: 350px;
-  height: auto;
-  padding: 24px;
+  color: var(--white);
 
   background-color: var(--basic);
-  cursor: pointer;
 }
 
-[card-1]:hover > .block-up {
-  display: none;
+[card-1]:hover > .font-34px {
+
+  margin-top: 24px;
+
+  color: var(--white);
 }
 
-[card-1]:hover > .block-down {
-  display: block;
+[card-2]:hover {
+
+  color: var(--white);
+
+  background-color: var(--basic);
 }
 
-[card-2]:hover > .block-up {
-  display: none;
+[card-2]:hover > .font-34px {
+
+  margin-top: 24px;
+
+  color: var(--white);
 }
 
-[card-2]:hover > .block-down {
-  display: block;
+[card-3]:hover {
+
+  color: var(--white);
+
+  background-color: var(--basic);
 }
 
-[card-3]:hover > .block-up {
-  display: none;
+[card-3]:hover > .font-34px {
+
+  margin-top: 24px;
+
+  color: var(--white);
 }
 
-[card-3]:hover > .block-down {
-  display: block;
+[card-4]:hover {
+
+  color: var(--white);
+
+  background-color: var(--basic);
 }
 
-[card-4]:hover > .block-up {
-  display: none;
+[card-4]:hover > .font-34px {
+
+  margin-top: 24px;
+
+  color: var(--white);
 }
 
-[card-4]:hover > .block-down {
-  display: block;
+[card-5]:hover {
+
+  color: var(--white);
+
+  background-color: var(--basic);
 }
 
-[card-5]:hover > .block-up {
-  display: none;
-}
+[card-5]:hover > .font-34px {
 
-[card-5]:hover > .block-down {
-  display: block;
+  margin-top: 24px;
+
+  color: var(--white);
 }
