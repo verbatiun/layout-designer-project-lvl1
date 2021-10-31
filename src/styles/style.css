@@ -24,11 +24,11 @@
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
 
 body {
-  min-width: 1110px;
+  min-width: 1130px;
 
   overflow-x: hidden;
 
@@ -443,19 +443,22 @@ footer {
 }
 
 .art-p1 {
+
   margin: 0;
 
   font: 24px/1.09em "Neucha", "Georgia", "Times New Roman", cursive;
 }
 
 .art-h1 {
+
   margin: 0 0 30px 0;
 
   font: 60px/1.09em "Neucha", "Georgia", "Times New Roman", cursive;
 }
 
 .art-p2 {
-  font: 34px/1.09em "Neucha", "Georgia", cursive;
+
+  font: 34px/1.09em "Neucha", "Georgia", "Times New Roman", cursive;
 }
 
 .art-div3 {
@@ -467,6 +470,7 @@ footer {
 }
 
 .art-h2 {
+
   margin: 100px 0 20px 0;
 
   padding: 5px 10px;
@@ -494,6 +498,7 @@ footer {
 }
 
 #ikea-effect {
+
   z-index: -600;
 
   padding-bottom: 55px;
@@ -584,7 +589,6 @@ footer {
 }
 
 .ftr-container {
-
   box-sizing: border-box;
   width: 1110px;
   margin: 0 auto;
@@ -592,11 +596,13 @@ footer {
 }
 
 .ftr-div1 {
+
   position: relative;
 
   box-sizing: border-box;
   width: 1110px;
   height: 190px;
+  padding-right: 55px;
 
   color: var(--white);
 
@@ -613,20 +619,37 @@ footer {
   font: 34px/1.2em "Neucha", "Georgia", "Times New Roman", cursive;
 }
 
-.ftr-div4 {
+.ftr-div3 {
+  display: table-cell;
+  box-sizing: border-box;
+  width: 485px;
+  height: 75px;
   padding-bottom: 9px;
 
   font-size: 18px;
   line-height: 1.6em;
+
+  vertical-align: bottom;
 }
 
-.ftr-form {
-  display: block;
-  width: 485px;
+.ftr-div4 {
+  position: relative;
+
   height: 50px;
 }
 
+.ftr-form {
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .ftr-input {
+
   box-sizing: border-box;
 
   width: 415px;
@@ -640,11 +663,10 @@ footer {
 }
 
 .ftr-button {
+
   position: relative;
 
   display: block;
-
-  float: right;
 
   width: 70px;
   height: 50px;
@@ -657,15 +679,11 @@ footer {
 }
 
 .ftr-div5 {
-  display: table-cell;
+
   box-sizing: border-box;
-  width: 485px;
+
   height: 65px;
 
-  vertical-align: top;
-}
-
-.ftr-div6 {
   font-size: 12px;
   line-height: 1.6em;
 }
@@ -677,6 +695,7 @@ footer {
 }
 
 .ftr-p1 {
+
   padding-top: 76px;
 
   font-size: 14px;
@@ -684,6 +703,7 @@ footer {
 }
 
 .ftr-p2 {
+
   font-size: 14px;
 
   text-align: center;
@@ -695,29 +715,4 @@ footer {
   text-decoration: underline;
 
   cursor: pointer;
-}
-
-td {
-  padding: 0;
-
-  border-collapse: collapse;
-}
-
-.ftr-table {
-  position: absolute;
-  right: 55px;
-
-  border-collapse: collapse;
-}
-
-.ftr-td1 {
-  width: 485px;
-  height: 75px;
-
-  vertical-align: bottom;
-}
-
-.ftr-td2 {
-  width: 485px;
-  height: 50px;
 }
