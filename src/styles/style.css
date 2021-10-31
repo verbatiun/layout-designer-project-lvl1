@@ -28,12 +28,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
 
 body {
+  min-width: 1110px;
+
   overflow-x: hidden;
 
   color: var(--dark);
   font: 16px/1.6em "Open Sans", sans-serif;
-
-  min-width: 1110px;
 }
 
 h1,
@@ -69,6 +69,7 @@ header,
 article,
 footer {
   position: relative;
+
   overflow-x: hidden;
 }
 
@@ -583,6 +584,7 @@ footer {
 }
 
 .ftr-container {
+
   box-sizing: border-box;
   width: 1110px;
   margin: 0 auto;
@@ -591,6 +593,7 @@ footer {
 
 .ftr-div1 {
   position: relative;
+
   box-sizing: border-box;
   width: 1110px;
   height: 190px;
@@ -637,11 +640,11 @@ footer {
 }
 
 .ftr-button {
-  float: right;
-
   position: relative;
 
   display: block;
+
+  float: right;
 
   width: 70px;
   height: 50px;
@@ -696,18 +699,21 @@ footer {
 
 td {
   padding: 0;
+
   border-collapse: collapse;
 }
 
 .ftr-table {
   position: absolute;
   right: 55px;
+
   border-collapse: collapse;
 }
 
 .ftr-td1 {
   width: 485px;
   height: 75px;
+
   vertical-align: bottom;
 }
 
@@ -715,4 +721,3 @@ td {
   width: 485px;
   height: 50px;
 }
-
