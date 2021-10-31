@@ -24,8 +24,8 @@
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 body {
   min-width: 1110px;
