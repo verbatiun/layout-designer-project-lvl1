@@ -28,9 +28,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
 
 body {
-  min-width: 1130px;
+  margin: 0;
+  width: 1440px;
 
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 
   color: var(--dark);
   font: 16px/1.6em "Open Sans", sans-serif;
