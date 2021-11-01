@@ -14,13 +14,13 @@
 
 @font-face {
   font-weight: normal;
-  font-family: "Neucha", cursive;
+  font-family: "Neucha";
   src: url("../fonts/Neucha-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-weight: normal;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
