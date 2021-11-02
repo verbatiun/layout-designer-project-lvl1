@@ -1,4 +1,4 @@
-/* -------- общие стили --------- */
+* -------- общие стили --------- */
 :root {
   --white: #fff;
   --clear-white: #d7ccc0;
@@ -28,7 +28,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
 
 body {
-  width: 1440px;
+  min-width: 1440px;
   margin: 0;
 
   color: var(--dark);
@@ -70,6 +70,8 @@ header,
 article,
 footer {
   position: relative;
+
+  overflow-x: hidden;
 }
 
 /* ----------- <header> -------------- */
@@ -94,7 +96,7 @@ footer {
 
   background: url(../images/background.png) top left / cover no-repeat;
 
-  background-color: var(--clear-white);
+  background-color: var(--clear-light);
 
   opacity: 0.2;
 
@@ -111,7 +113,7 @@ footer {
   width: 100%;
   height: 100%;
 
-  background-color: var(--white);
+  background-color: var(--light);
 
   content: "";
 }
@@ -276,7 +278,7 @@ footer {
 .card-head {
   flex: 0 0 350px;
   box-sizing: border-box;
-  height: 310px;
+  height: 323px;
   margin: 10px 15px;
 
   color: var(--basic);
