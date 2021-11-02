@@ -292,7 +292,7 @@ footer {
   margin: 10px 15px;
   padding: 24px;
 
-  background-color: var(--white);
+  background-color: var(--light);
   cursor: pointer;
 }
 
@@ -303,7 +303,7 @@ footer {
   margin: 10px 15px;
   padding: 24px;
 
-  background-color: var(--white);
+  background-color: var(--light);
   cursor: pointer;
 }
 
