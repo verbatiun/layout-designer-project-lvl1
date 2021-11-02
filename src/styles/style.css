@@ -70,13 +70,8 @@ header,
 article,
 footer {
   position: relative;
-
-  overflow-x: hidden;
 }
 
-nav {
-  width: 1440px;
-}
 /* ----------- <header> -------------- */
 .fc-black {
   color: var(--dark);
