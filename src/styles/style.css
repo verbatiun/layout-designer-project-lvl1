@@ -70,8 +70,10 @@ header,
 article,
 footer {
   position: relative;
+}
 
-  overflow-x: hidden;
+header {
+  overflow-x: clip;
 }
 
 /* ----------- <header> -------------- */
@@ -80,8 +82,7 @@ footer {
 }
 
 .content-1 {
-  width: 1138px;
-  margin: 0 auto 185px auto;
+  margin: 0 auto 185px 165px;
   padding-top: 100px;
 }
 
@@ -97,7 +98,7 @@ footer {
 
   background: url(../images/background.png) top left / cover no-repeat;
 
-  background-color: var(--clear-light);
+  background-color: var(--clear-white);
 
   opacity: 0.2;
 
@@ -114,7 +115,7 @@ footer {
   width: 100%;
   height: 100%;
 
-  background-color: var(--light);
+  background-color: var(--white);
 
   content: "";
 }
@@ -182,7 +183,7 @@ footer {
 
 .txt-header {
   width: 1138px;
-  margin: 0 auto;
+  margin: 0 auto 0 165px;
 
   padding-bottom: 100px;
 
@@ -271,6 +272,7 @@ footer {
 .container-flex {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
 }
@@ -278,7 +280,7 @@ footer {
 .card-head {
   flex: 0 0 350px;
   box-sizing: border-box;
-  height: 323px;
+  height: 310px;
   margin: 10px 15px;
 
   color: var(--basic);
